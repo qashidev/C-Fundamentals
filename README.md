@@ -41,5 +41,5 @@ gcc -Wall -Wextra -o out main.c
 ---
 
 <p align="center">
-  See <a href="#">github.com/YOUR_USERNAME</a> for more.
+  See <a href="#">github.com/qashidev</a> for more.
 </p>
