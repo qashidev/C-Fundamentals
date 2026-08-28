@@ -1,6 +1,5 @@
 #include <stdio.h>
 #include <string.h>
-
 typedef struct User {
   char name[17];
   int age;}User;
