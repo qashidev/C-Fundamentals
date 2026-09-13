@@ -10,7 +10,7 @@ int main(void){
   fclose(fp);
 
   fp=fopen("output.bin","rb"); unsigned char z;
-  while (fwrite(&z,sizeof(char),1,fp)>0){
+  while (fread(&z,sizeof(char),1,fp)>0){
     printf("%d ",z);
   }printf("\n");
   fclose(fp);
